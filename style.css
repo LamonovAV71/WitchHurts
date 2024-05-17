@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+    font-family: "Jersey 25", sans-serif;
+    color: white;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    width: 10%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+main {
+    background-image: url(images/все.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    padding: 50px;
+}
+
+.about-game {
+    background-color: rgba(0, 0, 0, 0.625);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+h2 {
+    font-family: "Jersey 25", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.opisanie {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    color: aliceblue;
+    font-size: 2em;
+    font-family: "Jersey 25", sans-serif;
+}
+
+.fotoimg {
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.logof {
+    display: flex;
+    align-items: center;
+}
+
+.logofimg {
+    width: 5%;
+}
+
+h6 {
+    font-family: "Jersey 25", sans-serif;
+    color: white;
+}
+
+.iconimg {
+    width: 35%;
+}
